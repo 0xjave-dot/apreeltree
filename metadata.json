@@ -1,0 +1,6 @@
+{
+  "name": "Apreeltree",
+  "description": "Bulk export of authentic Nigerian foodstuffs to Europe and the USA. Sourced fresh, certified clean, and shipped right.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
