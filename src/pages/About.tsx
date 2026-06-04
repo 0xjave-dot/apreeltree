@@ -1,16 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, HeartHandshake, Eye, ArrowRight, Stamp, Users, Landmark } from 'lucide-react';
+import { productsList } from '../data/products';
 
 export const About: React.FC = () => {
-  const images = [
-    { url: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=500&q=80', caption: 'Sorting Grade-A Cameroonian Yellow Pepper' },
-    { url: 'https://images.unsplash.com/photo-1518013002798-e37b23b2114e?auto=format&fit=crop&w=500&q=80', caption: 'Harvest checking sweet Oloyin sugar honey beans' },
-    { url: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80', caption: 'Dehydrating local farm milled starches & Amala' },
-    { url: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=500&q=80', caption: 'Inspecting dehusked sun-dried organic Egusi' },
-    { url: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80', caption: 'Kiln smoking whole lagoon fresh catfish' },
-    { url: 'https://images.unsplash.com/photo-1622484211148-716598e09116?auto=format&fit=crop&w=500&q=80', caption: 'Cold-pressing low-FFA unrefined premium red palm oil' }
-  ];
+  const galleryProducts = productsList.slice(0, 6);
 
   return (
     <div className="grain-overlay bg-[#F5EFE0] min-h-screen pb-24">
@@ -19,13 +13,13 @@ export const About: React.FC = () => {
       <section className="bg-gradient-to-b from-[#1A3728]/5 to-transparent pt-16 pb-12 border-b border-[#1A3728]/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <span className="text-[#C2673A] text-xs font-bold uppercase tracking-widest block font-sans">
-            OUR GENESIS & CALLING
+            
           </span>
           <h1 className="font-serif font-black text-4xl md:text-6xl text-[#1A3728] leading-[1.1] tracking-tight">
-            Bringing Nigeria’s Pantry to the World
+            Bringing Nigeria’s Best Delicacies to the World
           </h1>
           <p className="font-sans text-sm md:text-base text-[#6B6B6B] max-w-2xl mx-auto leading-relaxed">
-            Founded with a vision to streamline international commerce pathways and bridge the diaspora gap. We export premium, clean-clearing West African food resources to retailers and kitchens globally.
+            
           </p>
         </div>
       </section>
@@ -144,19 +138,24 @@ export const About: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {images.map((img, idx) => (
-            <div key={idx} className="bg-white rounded-3xl p-3 border border-[#1A3728]/10 group hover:shadow-lg transition-shadow">
+          {galleryProducts.map((product) => (
+            <div key={product.id} className="bg-white rounded-3xl p-3 border border-[#1A3728]/10 group hover:shadow-lg transition-shadow">
               <div className="h-60 w-full overflow-hidden rounded-2xl bg-[#1A3728]/5 relative">
                 <img
-                  src={img.url}
-                  alt={img.caption}
+                  src={product.image}
+                  alt={product.name}
                   className="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-350"
                   loading="lazy"
                 />
               </div>
-              <p className="mt-3 text-[11px] text-[#6B6B6B] font-medium px-1 font-sans text-left">
-                📦 {img.caption}
-              </p>
+              <div className="mt-3 space-y-2">
+                <p className="text-[12px] text-[#1A3728] font-semibold px-1 font-sans text-left">
+                  📦 {product.name}
+                </p>
+                <p className="text-[11px] text-[#6B6B6B] font-medium px-1 font-sans text-left">
+                  {product.category} · {product.origin}
+                </p>
+              </div>
             </div>
           ))}
         </div>
