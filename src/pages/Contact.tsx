@@ -21,7 +21,7 @@ Email: ${email}
 Message: ${message}`;
 
     const encoded = encodeURIComponent(textPayload);
-    const url = `https://wa.me/2348032938472?text=${encoded}`;
+    const url = `https://wa.me/2348188007303?text=${encoded}`;
 
     setIsSent(true);
     setTimeout(() => {
@@ -209,7 +209,7 @@ Message: ${message}`;
             </div>
 
             <div className="pt-6 border-t border-[#1A3728]/5 text-xs text-[#6B6B6B] leading-relaxed bg-[#F5EFE0]/30 p-4 rounded-2xl mt-4 font-sans text-center md:text-left">
-              💬 <span className="font-bold text-[#1A3728]">Fast Response Desk:</span> We monitor communications round the clock. For urgent wholesale pallet routing, please text us on WhatsApp directly at +2348032938472.
+              💬 <span className="font-bold text-[#1A3728]">Fast Response Desk:</span> We monitor communications round the clock. For urgent wholesale pallet routing, please text us on WhatsApp directly at +2348188007303.
             </div>
 
           </div>

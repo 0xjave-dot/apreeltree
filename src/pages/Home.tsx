@@ -11,7 +11,7 @@ export const Home: React.FC = () => {
 
   const handleWhatsAppChat = () => {
     const text = encodeURIComponent("Hi Apreeltree! I am interested in placing a bulk order of premium Nigerian foodstuffs.");
-    window.open(`https://wa.me/2348032938472?text=${text}`, '_blank');
+    window.open(`https://wa.me/2348188007303?text=${text}`, '_blank');
   };
 
   return (

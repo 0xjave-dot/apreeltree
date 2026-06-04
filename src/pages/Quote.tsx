@@ -81,7 +81,7 @@ Ref: Heard via ${hearAboutUs}`;
 
     // Construct wa.me link
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/2348032938472?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/2348188007303?text=${encodedMessage}`;
 
     // Trigger state
     setIsSubmitted(true);

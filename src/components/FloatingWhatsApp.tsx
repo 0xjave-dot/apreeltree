@@ -4,7 +4,7 @@ import { Send } from 'lucide-react';
 export const FloatingWhatsApp: React.FC = () => {
   const handleRedirect = () => {
     const text = encodeURIComponent("Hi Apreeltree! I'd like to enquire about a bulk order of authentic Nigerian food items.");
-    window.open(`https://wa.me/2348032938472?text=${text}`, '_blank');
+    window.open(`https://wa.me/2348188007303?text=${text}`, '_blank');
   };
 
   return (

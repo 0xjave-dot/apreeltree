@@ -63,7 +63,7 @@ export const ProductDetail: React.FC = () => {
     const text = encodeURIComponent(
       `Hi Apreeltree! I would like to inquire about importing bulk [${product.name}] (Quantity: ${quantity} x ${selectedWeight}) to our warehouse.`
     );
-    window.open(`https://wa.me/2348032938472?text=${text}`, '_blank');
+    window.open(`https://wa.me/2348188007303?text=${text}`, '_blank');
   };
 
   return (
