@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Instagram, Globe, ArrowUpRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, MessageCircle, ArrowUpRight } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -120,7 +120,7 @@ export const Footer: React.FC = () => {
                 <Instagram className="h-5 w-5" />
               </a>
               <button onClick={handleWhatsAppRedirect} className="text-[#F5EFE0]/70 hover:text-[#C2673A] transition-colors" aria-label="WhatsApp">
-                <Globe className="h-5 w-5" />
+                <MessageCircle className="h-5 w-5" />
               </button>
             </div>
           </div>
