@@ -302,7 +302,7 @@ Ref: Heard via ${hearAboutUs}`;
                     rows={4}
                     value={manualProducts}
                     onChange={(e) => setManualProducts(e.target.value)}
-                    placeholder="e.g. 100 kg Ijebu Fine White Garri, 50 Liters Palm Oil, 20 kg Dried Catfish. Feel free to list other traditional items not represented in our primary catalog."
+                    placeholder="e.g. 100 kg Ijebu Garri, 50 Liters Palm Oil, 20 kg Dried Catfish. Feel free to list other traditional items not represented in our primary catalog."
                     className="w-full bg-[#F5EFE0]/30 border border-[#1A3728]/15 rounded-xl px-4 py-3 text-xs focus:ring-1 focus:ring-[#C2673A] focus:outline-none"
                   />
                 </div>

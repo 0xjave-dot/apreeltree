@@ -48,7 +48,7 @@ export const productsList: Product[] = [
   },
   {
     id: 'prod-guinea-corn',
-    name: 'Guinea Corn (Sorghum)',
+    name: 'Guinea Corn ',
     slug: 'guinea-corn',
     category: 'Grains',
     origin: 'Nigeria',
@@ -69,11 +69,11 @@ export const productsList: Product[] = [
   },
   {
     id: 'prod-millet',
-    name: 'Pearl Millet Grains',
+    name: ' Millet ',
     slug: 'pearl-millet',
     category: 'Grains',
     origin: 'Nigeria',
-    description: 'Traditional organic pearl millet grains, carefully sun-dried and winnowed. Ideal for producing wholesome flatbreads, porridges, and health foods.',
+    description: 'Traditional organic  Millet , carefully sun-dried and winnowed. Ideal for producing wholesome flatbreads, porridges, and health foods.',
     cookingStory: 'Millet is one of Africa’s oldest domestic grains, legendary for its drought resilience. Spiced with ginger and cloves, it is fermented to brew Fura da Nono, a beloved, creamy street food of the West African grasslands.',
     weightOptions: ['5kg', '10kg', '25kg', '50kg'],
     basePrice: 6500,
@@ -158,7 +158,7 @@ export const productsList: Product[] = [
   },
   {
     id: 'prod-iru',
-    name: 'Dried Aged Iru (Locust Beans)',
+    name: 'Dried Iru (Locust Beans)',
     slug: 'dried-iru',
     category: 'Condiments',
     origin: 'Nigeria',
@@ -226,7 +226,7 @@ export const productsList: Product[] = [
   // --- DRY MEAT ---
   {
     id: 'prod-kilishi',
-    name: 'Traditional Kaduna Beef Kilishi',
+    name: 'Kilishi',
     slug: 'kaduna-kilishi',
     category: 'Dry Meat',
     origin: 'Nigeria',
@@ -250,7 +250,7 @@ export const productsList: Product[] = [
   // --- SPICES ---
   {
     id: 'prod-cameroon-pepper',
-    name: 'Aromatic Yellow Cameroon Pepper',
+    name: ' Yellow Cameroon Pepper',
     slug: 'cameroon-pepper',
     category: 'Spices',
     origin: 'Nigeria',
@@ -320,7 +320,7 @@ export const productsList: Product[] = [
   // --- SWALLOWS ---
   {
     id: 'prod-white-garri',
-    name: 'Ijebu Fine White Garri',
+    name: 'Ijebu Garri',
     slug: 'white-garri-ijebu',
     category: 'Swallows',
     origin: 'Nigeria',
@@ -342,7 +342,7 @@ export const productsList: Product[] = [
   },
   {
     id: 'prod-yellow-garri',
-    name: 'Yellow Garri (Edo style)',
+    name: 'Yellow Garri ',
     slug: 'yellow-garri-edo',
     category: 'Swallows',
     origin: 'Nigeria',
