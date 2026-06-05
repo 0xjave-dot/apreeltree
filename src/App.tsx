@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { QuoteProvider } from './context/QuoteContext';
 import { ScrollToTop } from './components/ScrollToTop';
 import { AnnouncementBar } from './components/AnnouncementBar';
@@ -20,7 +20,7 @@ import { Contact } from './pages/Contact';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <QuoteProvider>
         <ScrollToTop />
         <div className="relative flex flex-col min-h-screen bg-[#F5EFE0] selection:bg-[#C2673A] selection:text-white overflow-x-hidden md:overflow-visible">
