@@ -81,7 +81,7 @@ export const Navbar: React.FC = () => {
               className="bg-[#C2673A] text-[#F5EFE0] px-5 py-2.5 rounded-full font-serif font-medium tracking-wide text-sm shadow-md hover:bg-[#C2673A]/90 hover:scale-[1.02] transition-all flex items-center gap-2 cursor-pointer"
             >
               <Send className="h-4 w-4" />
-              <span>WhatsApp Export</span>
+              <span>More Information</span>
             </button>
           </div>
 

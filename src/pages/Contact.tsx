@@ -43,7 +43,7 @@ Message: ${message}`;
             GET IN TOUCH • IBADAN HEADQUARTERS
           </span>
           <h1 className="font-serif font-black text-4xl md:text-6xl text-[#1A3728] leading-[1.1] tracking-tight">
-            Connect With Our Sourcing Hub
+            Connect With Us
           </h1>
           <p className="font-sans text-sm md:text-base text-[#6B6B6B] max-w-2xl mx-auto leading-relaxed">
             Have questions about NAFDAC certifications, target freight weights, custom products not on the catalog, or delivery timelines? Reach out to our Ibadan export office right away.
@@ -59,7 +59,7 @@ Message: ${message}`;
             
             <div className="space-y-6">
               <h2 className="font-serif font-black text-2xl md:text-3xl text-[#1A3728]">
-                Ibadan Office Coordinates
+                Ibadan Office 
               </h2>
               
               <div className="space-y-6 font-sans">

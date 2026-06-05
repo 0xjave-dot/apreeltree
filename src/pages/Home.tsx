@@ -69,13 +69,13 @@ export const Home: React.FC = () => {
                       <div className="text-3xl font-serif font-black text-[#F5EFE0] tracking-tight leading-none px-2">
                         Stone-free Ofada Rice
                       </div>
-                      <div className="text-[#F5EFE0]/70 text-[11px] font-sans">Sourced: Nigeria</div>
+                      <div className="text-[#F5EFE0]/70 text-[11px] font-sans">Freshly sourced in Nigeria</div>
                       <div className="pt-2">
                         <Link 
                           to="/products/ofada-rice" 
                           className="inline-block bg-[#C2673A] text-[#F5EFE0] hover:bg-white hover:text-[#1A3728] text-[10px] uppercase font-bold tracking-widest py-1.5 px-4 rounded-sm transition-colors"
                         >
-                          View Specs
+                          Get In
                         </Link>
                       </div>
                     </div>
@@ -113,7 +113,7 @@ export const Home: React.FC = () => {
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-full bg-[#1A3728]/5 flex items-center justify-center text-[#1A3728] font-bold shrink-0 text-sm">✓</div>
               <p className="text-[10px] font-bold text-[#1A3728] uppercase tracking-wider max-w-[170px] leading-tight text-left">
-                Sourcing Excellence from the Heart of West Africa
+                Sourcing Excellence from the Heart of Nigeria
               </p>
             </div>
           </div>
@@ -127,9 +127,9 @@ export const Home: React.FC = () => {
           
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
             <div className="space-y-3">
-              <span className="text-[#C2673A] text-xs font-bold uppercase tracking-widest block">CURATED EXPORTS</span>
+              <span className="text-[#C2673A] text-xs font-bold uppercase tracking-widest block"></span>
               <h2 className="font-serif font-black text-3xl md:text-5xl text-[#1A3728]">
-                Export Staples Sourced Daily
+                Daily Sourced Exports
               </h2>
             </div>
             <Link
@@ -231,7 +231,7 @@ export const Home: React.FC = () => {
                 Place Your Enquiry
               </h3>
               <p className="text-xs text-[#6B6B6B] leading-relaxed font-sans">
-                Review our pricing matrix and catalog, build your basket of desired items and weights, then submit your request directly to our team.
+                Review our pricing catalog, fill your shopping cart of desired items and weights, then submit your request directly to our team.
               </p>
             </div>
 
@@ -244,7 +244,7 @@ export const Home: React.FC = () => {
                 Source & Process
               </h3>
               <p className="text-xs text-[#6B6B6B] leading-relaxed font-sans">
-                We handle premium farm extraction, oven-drying, and custom vacuum packaging. perishables are cleaned and prepared for export under sterile conditions.
+                We handle sourcing, oven-drying, and custom vacuum packaging. perishables are cleaned and prepared for export under sterile conditions.
               </p>
             </div>
 

@@ -52,10 +52,10 @@ export const HowItWorks: React.FC = () => {
             LOGISTICS MAP & PIPELINE
           </span>
           <h1 className="font-serif font-black text-4xl md:text-6xl text-[#1A3728] leading-[1.1] tracking-tight">
-            From African Farms to Your Front Door
+            From Nigerian Farms to Your Kitchen 
           </h1>
           <p className="font-sans text-sm md:text-base text-[#6B6B6B] max-w-2xl mx-auto leading-relaxed">
-            We have perfected our sourcing and customs licensing to establish a robust, reliable logistics channel from the heart of Nigeria to distributors, grocery marts, and households worldwide.
+            We have perfected our sourcing and customs licensing to establish a robust, reliable logistics channel from the farms of Nigeria to distributors, grocery marts, and households worldwide.
           </p>
         </div>
       </section>

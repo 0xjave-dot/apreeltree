@@ -100,7 +100,7 @@ Ref: Heard via ${hearAboutUs}`;
       {/* HEADER SECTION */}
       <section className="bg-gradient-to-b from-[#1A3728]/5 to-transparent pt-12 pb-10 border-b border-[#1A3728]/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-          <span className="text-[#C2673A] text-xs font-bold uppercase tracking-widest block font-sans">PROFORMA PRICING MATRIX</span>
+          <span className="text-[#C2673A] text-xs font-bold uppercase tracking-widest block font-sans"> PRICING </span>
           <h1 className="font-serif font-black text-4xl md:text-6xl text-[#1A3728] leading-[1.1] tracking-tight">
             Request a Bulk Quote
           </h1>

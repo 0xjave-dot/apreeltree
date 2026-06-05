@@ -26,7 +26,7 @@ export const productsList: Product[] = [
   },
   {
     id: 'prod-honey-beans',
-    name: 'Oloyin Brown Honey Beans',
+    name: 'Ewa Oloyin (Brown Honey Beans)',
     slug: 'brown-beans-oloyin',
     category: 'Grains',
     origin: 'Nigeria',
@@ -114,7 +114,7 @@ export const productsList: Product[] = [
   },
   {
     id: 'prod-ogbono',
-    name: 'Wild Draw Ogbono Seeds',
+    name: 'Ogbono Seeds',
     slug: 'ogbono-seeds',
     category: 'Condiments',
     origin: 'Nigeria',
@@ -136,7 +136,7 @@ export const productsList: Product[] = [
   },
   {
     id: 'prod-crayfish',
-    name: 'Premium Sun-Dried Crayfish',
+    name: 'Sun-dried Crayfish',
     slug: 'crayfish-whole',
     category: 'Condiments',
     origin: 'Nigeria',
