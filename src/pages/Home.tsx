@@ -42,7 +42,7 @@ export const Home: React.FC = () => {
                   to="/products"
                   className="bg-[#1A3728] hover:bg-[#C2673A] text-white px-8 py-4 rounded-sm font-sans font-bold text-xs uppercase tracking-widest transition-all shadow-md inline-flex items-center space-x-2"
                 >
-                  <span>Browse Catalog</span>
+                  <span>Available Products</span>
                   <ArrowRight className="h-4 w-4 text-[#C9A84C]" />
                 </Link>
                 
