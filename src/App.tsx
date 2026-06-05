@@ -56,6 +56,6 @@ export default function App() {
           <Footer />
         </div>
       </QuoteProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
