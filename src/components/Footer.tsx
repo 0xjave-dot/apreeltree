@@ -135,6 +135,7 @@ export const Footer: React.FC = () => {
             <Link to="/shipping" className="hover:text-white">Export Terms</Link>
             <Link to="/contact" className="hover:text-white">Privacy Policy</Link>
             <a onClick={handleWhatsAppRedirect} className="hover:text-white cursor-pointer">Support Chat</a>
+            <Link to="/admin-panel" className="hover:text-white text-[#F5EFE0]/30 hover:text-[#F5EFE0]/50 transition-colors text-[10px] tracking-widest uppercase">⚙️</Link>
           </div>
         </div>
       </div>

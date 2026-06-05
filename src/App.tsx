@@ -17,6 +17,7 @@ import { Shipping } from './pages/Shipping';
 import { About } from './pages/About';
 import { Quote } from './pages/Quote';
 import { Contact } from './pages/Contact';
+import { Admin } from './pages/Admin';
 
 export default function App() {
   return (
@@ -41,6 +42,7 @@ export default function App() {
               <Route path="/about" element={<About />} />
               <Route path="/quote" element={<Quote />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/admin-panel" element={<Admin />} />
               {/* Fallback route redirection */}
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
