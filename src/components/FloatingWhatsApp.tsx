@@ -12,9 +12,6 @@ export const FloatingWhatsApp: React.FC = () => {
       <span className="absolute right-16 top-1/2 -translate-y-1/2 bg-[#1A3728] text-[#F5EFE0] text-xs font-medium px-3 py-1.5 rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-350 pointer-events-none whitespace-nowrap border border-[#F5EFE0]/10">
         Bulk inquiries on WhatsApp
       </span>
-      
-      {/* Redundant pulsing ring */}
-      <div className="absolute inset-0 rounded-full bg-emerald-500/25 animate-ping -z-10 group-hover:bg-[#C2673A]/25" />
 
       {/* Primary button */}
       <button
