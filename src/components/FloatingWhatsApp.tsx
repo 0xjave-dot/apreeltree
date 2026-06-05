@@ -16,7 +16,7 @@ export const FloatingWhatsApp: React.FC = () => {
       {/* Primary button */}
       <button
         onClick={handleRedirect}
-        className="h-14 w-14 bg-emerald-600 hover:bg-[#C2673A] text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 active:scale-95 transition-all cursor-pointer"
+        className="p-2 bg-transparent text-[#25D366] hover:text-[#1A3728] flex items-center justify-center hover:scale-110 active:scale-95 transition-all cursor-pointer"
         aria-label="Inquire on WhatsApp"
       >
         <span className="sr-only">WhatsApp</span>
