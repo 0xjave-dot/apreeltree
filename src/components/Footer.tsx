@@ -140,7 +140,7 @@ export const Footer: React.FC = () => {
         </div>
         <p className="pt-4 text-[10px] text-[#F5EFE0]/35 text-center sm:text-left">
           Photo credits:{' '}
-          <a href="https://commons.wikimedia.org/wiki/File:Ofada_Rice.jpg" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#F5EFE0]/60">Ofada rice</a> by Ijeoma and{' '}
+          <a href="https://commons.wikimedia.org/wiki/File:Nigerian_local_rice.jpg" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#F5EFE0]/60">local rice</a> by Salma kyari and{' '}
           <a href="https://commons.wikimedia.org/wiki/File:Piper_guineense-Jardin_botanique_Meise_(3).jpg" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#F5EFE0]/60">uziza</a> by Ji-Elle,{' '}
           <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#F5EFE0]/60">CC BY-SA 4.0</a>, via Wikimedia Commons.
         </p>
