@@ -19,7 +19,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 11000 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'NAFDAC Export Permit', 'Health Certificate'],
-    image: 'https://humblesagefood.com/wp-content/uploads/2024/05/Ofada-rice.jpeg',
+    image: '/images/products/ofada-rice.webp',
     shelfLife: '12 months. Store in a cool, dry, pest-free area.',
     packagingType: 'Earthy premium woven food-grade hessian sacks with internal humidity-barrier liners.',
     popular: true
@@ -41,7 +41,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 7000 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'Health Certificate'],
-    image: 'https://www.neogric.com/wp-content/uploads/2025/04/Neogric-Honey-Beans-Oloyin-2.jpg',
+    image: '/images/products/brown-beans-oloyin.webp',
     shelfLife: '18 months when kept in hermetic export storage tanks.',
     packagingType: 'Heavy weight double-sewn gas-barrier bags (PICS bags) to prevent moisture ingress.',
     popular: true
@@ -62,7 +62,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 5800 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin'],
-    image: 'https://www.foodlocker.com.ng/public/product/guinea%20corn.png',
+    image: '/images/products/guinea-corn.webp',
     shelfLife: '24 months in clean storage.',
     packagingType: 'Reinforced dual-ply woven polypropylene bags.',
     popular: false
@@ -83,7 +83,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 5400 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin'],
-    image: 'https://www.supermart.ng/cdn/shop/files/MILE249.jpg?v=1689075229',
+    image: '/images/products/pearl-millet.webp',
     shelfLife: '24 months.',
     packagingType: 'Heavy duty polypropylene bags.',
     popular: false
@@ -107,7 +107,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 11500 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'NAFDAC Export License'],
-    image: 'https://sokokuu.africa/images/detailed/9/WhatsApp_Image_2021-01-06_at_1.16.38_PM.jpeg',
+    image: '/images/products/egusi-seeds.webp',
     shelfLife: '8 months (refrigerated after opening to sustain natural oils).',
     packagingType: 'Optimal vacuum-sealed high-barrier transparent food pouches to preserve oils and prevent rancidity.',
     popular: true
@@ -129,7 +129,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 18500 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'Health Certificate'],
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzmECAvAufTznmqCvAnsYuIaFnmwiLv_wo_XHXhFkRaiYprl_pDIC2H8av&s=10',
+    image: '/images/products/ogbono-seeds.webp',
     shelfLife: '12 months (keep away from light and dampness).',
     packagingType: 'Sealed moisture-resistant thick silver packaging bags or clear vacuum-packs.',
     popular: true
@@ -151,7 +151,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 12800 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'Veterinary Certificate'],
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpLdG2tiLA-9DQRlSKJLAGPLhP7yEi8QEwXvAsoc7sLfAOjFNhvKc_qc8&s=10',
+    image: '/images/products/crayfish-whole.webp',
     shelfLife: '6 months in dry storage, extendable up to 12 months if frozen.',
     packagingType: 'Hermetically heat-sealed multi-layered laminate film packs to preserve aroma.',
     popular: true
@@ -172,7 +172,7 @@ export const productsList: Product[] = [
       { quantity: '21kg+', pricePerKg: 10000 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin'],
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx4B0dAK0EHcDIBx03nGKSrCP2ZJFf1WpKMrgBTBaosUTvI7tiAstvM5VR&s=10',
+    image: '/images/products/dried-iru.webp',
     shelfLife: '12 months under airtight dry storage.',
     packagingType: 'Rigid airless vacuum bags with moisture absorbents.',
     popular: false
@@ -192,7 +192,7 @@ export const productsList: Product[] = [
       { quantity: '6kg+', pricePerKg: 8500 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin'],
-    image: 'https://humblesagefood.com/wp-content/uploads/2024/05/utazi-leaf-1.jpg',
+    image: '/images/products/uziza-leaves.webp',
     shelfLife: '12 months.',
     packagingType: 'Puncture-proof resealable zip stand pouches.',
     popular: false
@@ -216,7 +216,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 15000 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'Veterinary Export Health Permit'],
-    image: 'https://img2.tradewheel.com/uploads/images/products/9/7/0212147001641383127-sweet-oven-dried-cat.jpeg.webp',
+    image: '/images/products/smoked-catfish.webp',
     shelfLife: '6 months in dry storage (will resist mold due to ultra-low moisture processing).',
     packagingType: 'Rigid export cartons containing individual vacuum-sealed fish pieces to avoid crushing.',
     popular: true
@@ -240,7 +240,7 @@ export const productsList: Product[] = [
       { quantity: '10kg+', pricePerKg: 22000 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'Veterinary Certificate'],
-    image: 'https://www.supermart.ng/cdn/shop/files/sprnw1785.jpg?v=1688740547',
+    image: '/images/products/kaduna-kilishi.webp',
     shelfLife: '12 months (moisture-free shelf stability).',
     packagingType: 'Premium vacuum pack with greaseproof liners and oxygen absorbers.',
     popular: true
@@ -264,7 +264,7 @@ export const productsList: Product[] = [
       { quantity: '21kg+', pricePerKg: 11000 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin'],
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjoT1P9eMOknTLOoLvYKPvOFyd-FjpA9UeLSSJnXDhfBIMG9KlXl8zcwPe&s=10',
+    image: '/images/products/cameroon-pepper.webp',
     shelfLife: '24 months, store in airtight opaque jars.',
     packagingType: 'High barrier zip-lock foil bags to preserve visual yellow color and volatile capsicum oils.',
     popular: true
@@ -285,7 +285,7 @@ export const productsList: Product[] = [
       { quantity: '21kg+', pricePerKg: 9500 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin'],
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQerG-KqCdS1WqLaLb8oTUmifd_odt94okn9uePXtZBlielB0xqWXZTipaK&s=10',
+    image: '/images/products/suya-spice-yaji.webp',
     shelfLife: '18 months.',
     packagingType: 'Food-safe stand-up laminates with a seal zipper.',
     popular: true
@@ -310,7 +310,7 @@ export const productsList: Product[] = [
       { quantity: '100L+', pricePerKg: 5800 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'Standard Organization of Nigeria (SON) Certification'],
-    image: 'https://wigmorewholesale.com/image/wkseller/5428/56ebfed3-105e-490e-8a00-33ce56c887ab.jpeg',
+    image: '/images/products/red-palm-oil.webp',
     shelfLife: '24 months in a dark, sealed container.',
     packagingType: 'Heavy-duty food-grade HDPE jerrycans with pressure-sealed caps and childproof safety locks (also bulk metal drums for large orders).',
     popular: true
@@ -335,7 +335,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 4500 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'Standard Organization of Nigeria (SON)'],
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM-op_nXrVJDhCAdWP_CmooayAYSDvaoLtpqqApEBmqyGRYOyhC9IMqYk&s=10',
+    image: '/images/products/white-garri-ijebu.webp',
     shelfLife: '18 months when stored in completely dry warehouse environments.',
     packagingType: 'Moisture-proof laminated woven polypropylene bag with security seal stitching.',
     popular: true
@@ -357,7 +357,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 4900 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin'],
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7xt0Swkqr3URiBX9wY1s0fDIHav2LoFCxHWoSkF-RW50lz1YPOqQcslA&s=10',
+    image: '/images/products/yellow-garri-edo.webp',
     shelfLife: '12 months under dry warehouse storage.',
     packagingType: 'Sealed woven polypropylene bag with high barrier liners.',
     popular: false
@@ -379,7 +379,7 @@ export const productsList: Product[] = [
       { quantity: '50kg+', pricePerKg: 8900 }
     ],
     certifications: ['Phytosanitary Certificate', 'Certificate of Origin', 'Standard Organization of Nigeria (SON)'],
-    image: 'https://www.foodlocker.com.ng/public/product/imageedit_30_5432476129.png',
+    image: '/images/products/yam-flour-amala.webp',
     shelfLife: '18 months.',
     packagingType: 'Laminated moisture resistant food packaging with double bottom stitching.',
     popular: true

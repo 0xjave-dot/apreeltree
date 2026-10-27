@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-full overflow-hidden border border-[#F5EFE0]/25 shadow-sm bg-white flex items-center justify-center shrink-0">
                 <img
-                  src="https://scontent-los4-1.cdninstagram.com/v/t51.82787-19/616612815_17842740282680836_9113106517141774474_n.jpg?_nc_cat=105&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDI0LkMzIn0%3D&_nc_ohc=4Wckyo1Qh0MQ7kNvwGCTrJG&_nc_oc=Adov9QzotIDDjGvDrMmVoitHG3CfYjO5x_c-gliAX5NpgWpsNFmaIG4SN3r8e99yfAU&_nc_zt=24&_nc_ht=scontent-los4-1.cdninstagram.com&_nc_gid=FhcM6TYR34eAF-yu_TxNHw&_nc_ss=7baaf&oh=00_Af9lqqih16f28xZ6KSB6LaV2nbhw_gtf2JmEcltWeG5K0A&oe=6A27B32B"
+                  src="/logo.svg"
                   alt="Apreeltree brand logo"
                   className="w-full h-full object-cover pointer-events-none"
                   referrerPolicy="no-referrer"
@@ -138,6 +138,12 @@ export const Footer: React.FC = () => {
             <Link to="/admin-panel" className="hover:text-white text-[#F5EFE0]/30 hover:text-[#F5EFE0]/50 transition-colors text-[10px] tracking-widest uppercase">⚙️</Link>
           </div>
         </div>
+        <p className="pt-4 text-[10px] text-[#F5EFE0]/35 text-center sm:text-left">
+          Photo credits:{' '}
+          <a href="https://commons.wikimedia.org/wiki/File:Ofada_Rice.jpg" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#F5EFE0]/60">Ofada rice</a> by Ijeoma and{' '}
+          <a href="https://commons.wikimedia.org/wiki/File:Piper_guineense-Jardin_botanique_Meise_(3).jpg" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#F5EFE0]/60">uziza</a> by Ji-Elle,{' '}
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#F5EFE0]/60">CC BY-SA 4.0</a>, via Wikimedia Commons.
+        </p>
       </div>
     </footer>
   );
